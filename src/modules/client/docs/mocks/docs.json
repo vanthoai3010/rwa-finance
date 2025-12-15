@@ -1,0 +1,354 @@
+
+{
+  "nav": [
+    {
+      "title": "GIỚI THIỆU",
+      "items": [
+        { "id": "rwa", "label": "RWA là gì?", "icon": "mdi:information-outline" },
+        { "id": "mission", "label": "Sứ mệnh của chúng tôi", "icon": "mdi:flag-variant-outline" }
+      ]
+    },
+    {
+      "title": "HƯỚNG DẪN NHÀ ĐẦU TƯ",
+      "items": [
+        { "id": "quick-start", "label": "Bắt đầu nhanh", "icon": "mdi:rocket-launch-outline" },
+        { "id": "kyc", "label": "Cách thức KYC", "icon": "mdi:account-check-outline" },
+        { "id": "mint-redeem", "label": "Cách Mint & Redeem", "icon": "mdi:swap-horizontal" }
+      ]
+    },
+    {
+      "title": "SẢN PHẨM (QUỸ)",
+      "items": [
+        { "id": "ousg", "label": "Quỹ $OUSG (Trái phiếu)", "icon": "mdi:bank-outline" },
+        { "id": "priv-credit", "label": "Quỹ $PRIV_CREDIT (Tín dụng)", "icon": "mdi:credit-card-outline" }
+      ]
+    },
+    {
+      "title": "HƯỚNG DẪN DEVELOPER",
+      "items": [
+        { "id": "integration", "label": "Tích hợp Hợp đồng", "icon": "mdi:code-tags" },
+        { "id": "api", "label": "Tham chiếu API", "icon": "mdi:api" }
+      ]
+    },
+    {
+      "title": "BẢO MẬT",
+      "items": [
+        { "id": "audit", "label": "Báo cáo Kiểm toán", "icon": "mdi:shield-check-outline" },
+        { "id": "bug-bounty", "label": "Chương trình Bug Bounty", "icon": "mdi:bug-outline" }
+      ]
+    },
+    {
+      "title": "FAQs",
+      "items": [
+        { "id": "faq", "label": "Câu hỏi thường gặp", "icon": "mdi:help-circle-outline" }
+      ]
+    }
+  ],
+  "pages": {
+    "mission": {
+      "title": "Sứ mệnh của chúng tôi",
+      "description": "RWA (Real World Assets) cam kết mang lại sự minh bạch và khả năng tiếp cận cho các tài sản truyền thống thông qua công nghệ blockchain.",
+      "sections": [
+        {
+          "id": "vision",
+          "title": "Tầm nhìn",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Chúng tôi hướng tới một hệ sinh thái tài chính phi tập trung nơi mọi người có thể đầu tư vào các tài sản thực với chi phí thấp và quy trình đơn giản."
+            },
+            {
+              "type": "callout",
+              "variant": "note",
+              "title": "LƯU Ý",
+              "text": "Quá trình mint token có thể mất đến 24 giờ để hoàn tất do quy trình TradFi."
+            }
+          ]
+        },
+        {
+          "id": "values",
+          "title": "Giá trị cốt lõi",
+          "blocks": [
+            {
+              "type": "check_list",
+              "items": [
+                "Minh bạch hoàn toàn trong mọi giao dịch",
+                "Bảo mật tối đa cho tài sản của nhà đầu tư",
+                "Khả năng tiếp cận toàn cầu"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "technical-method",
+          "title": "Phương pháp kỹ thuật",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Chúng tôi sử dụng smart contracts được kiểm toán kỹ lưỡng để đảm bảo tính bảo mật và minh bạch."
+            },
+            {
+              "type": "code",
+              "language": "ts",
+              "code": "// Example smart contract interaction\nconst contract = new ethers.Contract(contractAddress, abi, signer);\n\nconst mintTokens = async (amount) => {\n  const tx = await contract.mint(amount);\n  await tx.wait();\n  console.log('Tokens minted successfully');\n};"
+            },
+            {
+              "type": "callout",
+              "variant": "warning",
+              "title": "CẢNH BÁO",
+              "text": "Không bao giờ gửi USDC trực tiếp đến địa chỉ hợp đồng. Luôn sử dụng giao diện 'Launch App' chính thức."
+            }
+          ]
+        },
+        {
+          "id": "roadmap",
+          "title": "Lộ trình phát triển",
+          "blocks": [
+            {
+              "type": "table",
+              "caption": "Lộ trình phát triển",
+              "columns": ["Giai đoạn", "Thời gian", "Mục tiêu"],
+              "rows": [
+                ["Phase 1", "Q1 2024", "Ra mắt quỹ $OUSG"],
+                ["Phase 2", "Q2 2024", "Tích hợp quỹ tín dụng"],
+                ["Phase 3", "Q3 2024", "Mở rộng toàn cầu"]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "rwa": {
+      "title": "RWA là gì?",
+      "description": "Tổng quan về Real World Assets và cách token hoá tài sản thực.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Tổng quan",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "RWA (Real World Assets) là quá trình đưa các tài sản ngoài đời thực (trái phiếu, tín dụng, bất động sản...) lên blockchain dưới dạng token, giúp tăng tính minh bạch và khả năng giao dịch."
+            }
+          ]
+        },
+        {
+          "id": "benefits",
+          "title": "Lợi ích",
+          "blocks": [
+            {
+              "type": "unordered_list",
+              "items": [
+                "Minh bạch dữ liệu và dòng tiền",
+                "Giảm chi phí vận hành và đối soát",
+                "Mở rộng khả năng tiếp cận nhà đầu tư toàn cầu",
+                "Giao dịch và kiểm chứng on-chain"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "risk",
+          "title": "Rủi ro cần lưu ý",
+          "blocks": [
+            {
+              "type": "callout",
+              "variant": "warning",
+              "title": "LƯU Ý",
+              "text": "Token hoá không loại bỏ hoàn toàn rủi ro thị trường/pháp lý. Hãy đọc kỹ tài liệu trước khi đầu tư."
+            }
+          ]
+        }
+      ]
+    },
+    "quick-start": {
+      "title": "Bắt đầu nhanh",
+      "description": "Các bước cơ bản để bắt đầu sử dụng nền tảng.",
+      "sections": [
+        {
+          "id": "steps",
+          "title": "Các bước",
+          "blocks": [
+            {
+              "type": "ordered_list",
+              "items": [
+                "Tạo tài khoản",
+                "Hoàn tất KYC",
+                "Kết nối ví",
+                "Nạp stablecoin",
+                "Mint token và theo dõi lợi suất"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tips",
+          "title": "Mẹo",
+          "blocks": [
+            {
+              "type": "unordered_list",
+              "items": [
+                "Ưu tiên ví có bảo mật tốt (hardware wallet nếu có)",
+                "Không chia sẻ seed phrase/private key",
+                "Kiểm tra đúng domain trước khi kết nối ví"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "kyc": {
+      "title": "Cách thức KYC",
+      "description": "Quy trình xác minh danh tính để tuân thủ pháp lý.",
+      "sections": [
+        {
+          "id": "kyc-why",
+          "title": "Vì sao cần KYC?",
+          "blocks": [
+            { "type": "paragraph", "text": "KYC giúp tuân thủ AML/CFT và bảo vệ hệ thống khỏi các hành vi gian lận." }
+          ]
+        },
+        {
+          "id": "kyc-docs",
+          "title": "Hồ sơ cần chuẩn bị",
+          "blocks": [
+            {
+              "type": "unordered_list",
+              "items": [
+                "CCCD/Hộ chiếu còn hiệu lực",
+                "Ảnh selfie rõ mặt",
+                "Giấy tờ chứng minh địa chỉ (tuỳ trường hợp)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mint-redeem": {
+      "title": "Cách Mint & Redeem",
+      "description": "Hướng dẫn mint token và redeem về stablecoin/fiat.",
+      "sections": [
+        {
+          "id": "mint",
+          "title": "Mint",
+          "blocks": [
+            { "type": "paragraph", "text": "Mint là thao tác tạo token bằng cách nạp tài sản đầu vào (USDC/fiat) theo quy trình nền tảng." }
+          ]
+        },
+        {
+          "id": "redeem",
+          "title": "Redeem",
+          "blocks": [
+            { "type": "paragraph", "text": "Redeem là thao tác quy đổi token trở lại tài sản đầu vào, tuỳ theo cơ chế từng sản phẩm." }
+          ]
+        },
+        {
+          "id": "fees",
+          "title": "Phí & thời gian xử lý",
+          "blocks": [
+            {
+              "type": "unordered_list",
+              "items": [
+                "Phí có thể thay đổi theo sản phẩm",
+                "Mint có thể mất tới 24h do quy trình TradFi",
+                "Redeem có thể mất 1-3 ngày làm việc tuỳ kênh thanh toán"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ousg": {
+      "title": "Quỹ $OUSG (Trái phiếu)",
+      "description": "Sản phẩm RWA dựa trên trái phiếu (mô tả mẫu).",
+      "sections": [
+        {
+          "id": "about",
+          "title": "Giới thiệu",
+          "blocks": [
+            { "type": "paragraph", "text": "$OUSG đại diện cho sản phẩm đầu tư trái phiếu được token hoá, nhằm tối ưu thanh khoản và minh bạch." }
+          ]
+        }
+      ]
+    },
+    "priv-credit": {
+      "title": "Quỹ $PRIV_CREDIT (Tín dụng)",
+      "description": "Sản phẩm RWA dựa trên tín dụng (mô tả mẫu).",
+      "sections": [
+        {
+          "id": "about",
+          "title": "Giới thiệu",
+          "blocks": [
+            { "type": "paragraph", "text": "$PRIV_CREDIT tập trung vào danh mục tín dụng chất lượng, được token hoá để tăng hiệu quả vận hành." }
+          ]
+        }
+      ]
+    },
+    "integration": {
+      "title": "Tích hợp Hợp đồng",
+      "description": "Tài liệu tích hợp smart contract (mô tả mẫu).",
+      "sections": [
+        {
+          "id": "setup",
+          "title": "Thiết lập",
+          "blocks": [
+            { "type": "code", "language": "bash", "code": "npm i ethers" }
+          ]
+        }
+      ]
+    },
+    "api": {
+      "title": "Tham chiếu API",
+      "description": "Danh sách endpoint (mô tả mẫu).",
+      "sections": [
+        {
+          "id": "base-url",
+          "title": "Base URL",
+          "blocks": [
+            { "type": "code", "language": "text", "code": "https://api.example.com/v1" }
+          ]
+        }
+      ]
+    },
+    "audit": {
+      "title": "Báo cáo Kiểm toán",
+      "description": "Thông tin kiểm toán bảo mật (mô tả mẫu).",
+      "sections": [
+        {
+          "id": "reports",
+          "title": "Danh sách báo cáo",
+          "blocks": [
+            { "type": "unordered_list", "items": ["Audit 01/2024", "Audit 06/2024", "Audit 09/2024"] }
+          ]
+        }
+      ]
+    },
+    "bug-bounty": {
+      "title": "Chương trình Bug Bounty",
+      "description": "Cơ chế báo cáo lỗi bảo mật (mô tả mẫu).",
+      "sections": [
+        {
+          "id": "scope",
+          "title": "Phạm vi",
+          "blocks": [
+            { "type": "paragraph", "text": "Chương trình áp dụng cho smart contract, web app và API liên quan." }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "description": "Các câu hỏi và trả lời (mô tả mẫu).",
+      "sections": [
+        {
+          "id": "q1",
+          "title": "RWA có an toàn không?",
+          "blocks": [
+            { "type": "paragraph", "text": "Các hợp đồng được kiểm toán và có cơ chế quản trị rủi ro. Tuy nhiên, mọi đầu tư đều có rủi ro." }
+          ]
+        }
+      ]
+    }
+  }
+}
+

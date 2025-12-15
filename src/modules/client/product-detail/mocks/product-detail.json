@@ -1,0 +1,157 @@
+
+{
+  "name": "US Treasury Income Fund",
+  "tagline": "Quỹ đầu tư trái phiếu kho bạc Mỹ với thu nhập ổn định",
+  "annualYield": {
+    "value": 5.1,
+    "unit": "%",
+    "label": "Lợi suất hằng năm"
+  },
+  "highlights": [
+    {
+      "label": "Rủi ro",
+      "value": "Thấp",
+      "icon": "mdi:shield-half-full",
+      "tone": "blue"
+    },
+    {
+      "label": "Thanh khoản",
+      "value": "Hàng ngày",
+      "icon": "material-symbols:alarm",
+      "tone": "green"
+    },
+    {
+      "label": "Đầu tư tối thiểu",
+      "value": "$1,000",
+      "icon": "material-symbols:attach-money-rounded",
+      "tone": "purple"
+    },
+    {
+      "label": "Phí quản lý",
+      "value": "0.15%",
+      "icon": "mdi:percent",
+      "tone": "orange"
+    }
+  ],
+  "strategy": {
+    "title": "Chiến lược đầu tư",
+    "description": "Quỹ tập trung đầu tư vào tín phiếu kho bạc Mỹ với thời hạn từ 1–10 năm, tạo ra thu nhập ổn định thông qua lãi suất cố định. Chiến lược đa dạng hóa theo thời hạn đáo hạn giúp tối ưu hóa lợi nhuận và giảm thiểu rủi ro lãi suất."
+  },
+  "portfolio": {
+    "title": "Danh mục đầu tư",
+    "items": [
+      {
+        "name": "US Treasury 2Y",
+        "subtitle": "Đáo hạn: 15/03/2026",
+        "allocationPct": 35,
+        "yieldPct": 4.88,
+        "color": "#2563EB"
+      },
+      {
+        "name": "US Treasury 5Y",
+        "subtitle": "Đáo hạn: 30/08/2029",
+        "allocationPct": 28,
+        "yieldPct": 5.25,
+        "color": "#16A34A"
+      },
+      {
+        "name": "US Treasury 10Y",
+        "subtitle": "Đáo hạn: 15/11/2034",
+        "allocationPct": 22,
+        "yieldPct": 5.4,
+        "color": "#9333EA"
+      },
+      {
+        "name": "US Treasury Bills",
+        "subtitle": "Đáo hạn: < 1 năm",
+        "allocationPct": 15,
+        "yieldPct": 4.55,
+        "color": "#EA580C"
+      }
+    ]
+  },
+  "performance12m": {
+    "title": "Hiệu suất 12 tháng",
+    "points": [
+      { "label": "Jan", "value": 4.2 },
+      { "label": "Feb", "value": 4.5 },
+      { "label": "Mar", "value": 4.8 },
+      { "label": "Apr", "value": 5.1 },
+      { "label": "May", "value": 5.4 },
+      { "label": "Jun", "value": 5.0 },
+      { "label": "Jul", "value": 4.9 },
+      { "label": "Aug", "value": 5.1 },
+      { "label": "Sep", "value": 5.2 },
+      { "label": "Oct", "value": 5.0 },
+      { "label": "Nov", "value": 5.1 },
+      { "label": "Dec", "value": 5.1 }
+    ]
+  },
+  "riskAnalysis": {
+    "title": "Phân tích rủi ro",
+    "items": [
+      {
+        "label": "Rủi ro tín dụng",
+        "level": "Rất thấp",
+        "value": 12,
+        "color": "#22C55E"
+      },
+      {
+        "label": "Rủi ro lãi suất",
+        "level": "Trung bình",
+        "value": 55,
+        "color": "#EAB308"
+      },
+      {
+        "label": "Rủi ro thanh khoản",
+        "level": "Thấp",
+        "value": 25,
+        "color": "#22C55E"
+      }
+    ],
+    "note": "Trái phiếu kho bạc Mỹ được bảo đảm bởi chính phủ Mỹ, có rủi ro vỡ nợ gần như bằng không."
+  },
+  "feesTerms": {
+    "title": "Chi phí & Điều khoản",
+    "rows": [
+      { "label": "Phí quản lý", "value": "0.15% / năm" },
+      { "label": "Tỷ lệ chi phí", "value": "0.18% / năm" },
+      { "label": "Tần suất trả lãi", "value": "Hàng tháng" },
+      { "label": "Phí rút tiền sớm", "value": "Không có" },
+      { "label": "Thời gian xử lý rút tiền", "value": "T+1 ngày" }
+    ]
+  },
+  "documents": {
+    "title": "Tài liệu & Pháp lý",
+    "items": [
+      {
+        "title": "Bản cáo bạch",
+        "subtitle": "Tài liệu pháp lý chính thức",
+        "icon": "mdi:file-document-outline",
+        "href": "#"
+      },
+      {
+        "title": "Fact Sheet",
+        "subtitle": "Tóm tắt thông tin quỹ",
+        "icon": "mdi:chart-box-outline",
+        "href": "#"
+      },
+      {
+        "title": "Đội ngũ quản lý",
+        "subtitle": "Thông tin fund managers",
+        "icon": "mdi:account-group-outline",
+        "href": "#"
+      }
+    ]
+  },
+  "team": {
+    "title": "Đội ngũ quản lý quỹ",
+    "members": [
+      {
+        "name": "John Anderson, CFA",
+        "role": "Senior Portfolio Manager",
+        "meta": "15 năm kinh nghiệm"
+      }
+    ]
+  }
+}
