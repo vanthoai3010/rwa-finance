@@ -29,7 +29,7 @@ export const Navlinks: React.FC<{ variant?: 'desktop' | 'mobile'; onNavigate?: (
     },
     {
       label: 'Đầu tư',
-      href: '/invest',
+      href: '/product/all',
     },
     {
       label: 'Lịch sử',
