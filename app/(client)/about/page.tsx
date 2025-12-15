@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: 'RWA Finance',
     images: [
       {
-        url: 'https://rwa-finance.vercel.app/image/logo-metadata.png',
+        url: 'https://rwa-finance.vercel.app/image/about/about-section-1.png',
         width: 1200,
         height: 630,
         alt: 'Về RWA Finance - Đội ngũ và sứ mệnh',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Về Chúng Tôi - RWA Finance',
     description: 'Chúng tôi là đội ngũ gồm các chuyên gia kỳ cựu từ cả hai thế giới tài chính và công nghệ. Tìm hiểu về sứ mệnh, tầm nhìn và đội ngũ của chúng tôi.',
-    images: ['https://rwa-finance.vercel.app/image/logo-metadata.png'],
+    images: ['https://rwa-finance.vercel.app/image/about/about-section-1.png'],
   },
   
   // Robots
