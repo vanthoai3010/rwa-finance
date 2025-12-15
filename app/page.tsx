@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: 'RWA Finance',
     images: [
       {
-        url: 'https://rwa-finance.vercel.app/image/logo-metadata.png',
+        url: 'https://rwa-finance.vercel.app/image/home/banner-home.png',
         width: 1200,
         height: 630,
         alt: 'RWA Finance - Trái phiếu kho bạc trên blockchain',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'RWA Finance',
     description: 'Mang Lợi Nhuận An Toàn Của Trái Phiếu Kho Bạc Hoa Kỳ Đến Blockchain',
-    images: ['https://rwa-finance.vercel.app/image/logo-metadata.png'],
+    images: ['https://rwa-finance.vercel.app/image/home/banner-home.png'],
   },
   
   // Robots
